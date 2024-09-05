@@ -1,0 +1,18 @@
+{
+  "cli": {
+    "version": ">= 0.37.0"
+  },
+  "build": {
+    "release": {
+      "developmentClient": false,
+      "env": {}
+    },
+    "development": {
+      "developmentClient": true,
+      "env": {}
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
